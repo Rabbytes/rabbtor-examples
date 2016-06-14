@@ -20,7 +20,7 @@ template
 - **AccountController** which renders and processes a sample model object RegisterCommand
 -  tag library  implementation **BootstrapFormTagLib.groovy** to render Bootstrap form elements. It shows examples for reusing
 existing tags
-- register page which displays how Sitemesh layouts can be applied to specific page parts
+- register page which displays how **Sitemesh layouts** can be applied to specific page parts
 - registration form which uses **Rabbtor form tags, metadata aware labels and custom bootstrap tags**. It also shows how Rabbtor
 **AJAX features** are used and how you include a template within the form for AJAX scenarios
 -  **messages.properties** file which explains label localization ( please see comments in the file )
