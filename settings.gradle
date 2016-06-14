@@ -1,0 +1,3 @@
+rootProject.name = 'rabbtor-examples'
+include 'sample-web-app'
+

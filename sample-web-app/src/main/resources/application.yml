@@ -1,0 +1,5 @@
+spring:
+  gsp:
+    enabled: true
+    taglib:
+      packages: ["com.rabbtor.example.web.tags"]
