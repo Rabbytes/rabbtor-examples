@@ -21,9 +21,9 @@ template
 -  tag library  implementation **BootstrapFormTagLib.groovy** to render Bootstrap form elements. It shows examples for reusing
 existing tags
 - register page which displays how Sitemesh layouts can be applied to specific page parts
-- registration form which uses Rabbtor form tags, metadata aware labels and custom bootstrap tags. It also shows how Rabbtor
-AJAX features are used and how you include a template within the form for AJAX scenarios
--  messages.properties file which explains label localization ( please see comments in the file )
+- registration form which uses **Rabbtor form tags, metadata aware labels and custom bootstrap tags**. It also shows how Rabbtor
+**AJAX features** are used and how you include a template within the form for AJAX scenarios
+-  **messages.properties** file which explains label localization ( please see comments in the file )
 - **<g:message>** examples for accessing localized messages
 - **@defaultCodec** directive in _register_form.gsp to prevent HTML escaping of expressions
 - **application.yml** file for auto configuring GSP in Spring boot applications
