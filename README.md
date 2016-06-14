@@ -24,9 +24,9 @@ existing tags
 - registration form which uses Rabbtor form tags, metadata aware labels and custom bootstrap tags. It also shows how Rabbtor
 AJAX features are used and how you include a template within the form for AJAX scenarios
 -  messages.properties file which explains label localization ( please see comments in the file )
-- <g:message> examples for accessing localized messages
-- @defaultCodec directive in _register_form.gsp to prevent HTML escaping of expressions
-- application.yml file for auto configuring GSP in Spring boot applications
+- **<g:message>** examples for accessing localized messages
+- **@defaultCodec** directive in _register_form.gsp to prevent HTML escaping of expressions
+- **application.yml** file for auto configuring GSP in Spring boot applications
 
 Please consult the [Rabbtor Documentation](https://rabbytes.atlassian.net/wiki/display/rabbtordoc) for more information or features not displayed here and 
 please be aware that some features in these samples may not have been documented yet.
