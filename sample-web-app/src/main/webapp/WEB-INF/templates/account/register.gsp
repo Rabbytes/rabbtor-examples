@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Register</title>
-        <meta name="layout" content="main"/>
+        <meta name="layout" content="sidebar_right"/>
     </head>
 
     <body>
@@ -18,13 +18,9 @@
             <p>This page renders the form using ${'<' + 'g:render template="/account/register_form"' + '>'}. This way we can use that same template in our ajax call result.</p>
         </div>
 
-        <g:applyLayout name="sidebar_right" >
-            <content tag="main">
-                <g:form id="registerForm" action="${g.mvcUrl(mapping: 'account#registerPost')}" ajax="[target:'#registerForm']" modelAttribute="cmd">
-                    <g:render template="/account/register_form"/>
-                </g:form>
-            </content>
-        </g:applyLayout>
+        <g:form id="registerForm" action="${g.mvcUrl(mapping: 'account#registerPost')}" ajax="[target:'#registerForm']" modelAttribute="cmd">
+            <g:render template="/account/register_form"/>
+        </g:form>
 
     </body>
 </html>
