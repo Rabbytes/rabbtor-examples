@@ -28,7 +28,7 @@ existing tags
 - **@defaultCodec** directive in _register_form.gsp to prevent HTML escaping of expressions
 - **application.yml** file for auto configuring GSP in Spring boot applications
 
-Please consult the [Rabbtor Documentation](https://rabbytes.atlassian.net/wiki/display/rabbtordoc) for more information or features not displayed here and 
+Please consult the [Rabbtor Documentation](http://knowledgebase.rabbytes.com/display/rabbtordoc) for more information or features not displayed here and 
 please be aware that some features in these samples may not have been documented yet.
 
 
