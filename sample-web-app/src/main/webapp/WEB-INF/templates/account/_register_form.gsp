@@ -1,4 +1,4 @@
-<g:withModel modelAttribute="cmd" override="${false}">
+<g:withModel modelAttribute="cmd" >
 
 
     <div class="form-group">

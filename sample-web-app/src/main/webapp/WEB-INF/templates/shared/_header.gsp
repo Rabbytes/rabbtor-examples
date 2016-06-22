@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="${g.url(value:'/')}">
                 ${g.message(code:'brand',text:'Rabbtor')} Example Web App
             </a>
         </div>

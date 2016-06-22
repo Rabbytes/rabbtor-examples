@@ -20,13 +20,12 @@ repositories {
 }
 
 ext {
-    rabbtorVersion = '1.0.1'
+    rabbtorVersion = '1.0.3'
     groovyVersion = "2.4.6"
     thymeleafVersion = "3.0.0.BETA03"
     tomcatVersion = "8.0.32"
     jstlVersion = "1.2"
     freemarkerVersion = '2.3.24-incubating'
-    grailsVersion = "3.1.7"
 
 }
 
@@ -60,7 +59,9 @@ dependencies {
     // For common Rabbtor utilities and model metadata usage
     compile "com.rabbtor:rabbtor-web:${rabbtorVersion}"
     // For GSP Support
-    compile "com.rabbtor:rabbtor-web-gsp:${rabbtorVersion}"
+    compile ("com.rabbtor:rabbtor-web-gsp:${rabbtorVersion}")
+
+
 
     // Tomcat JSP
     compile("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}")

@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <g:applyLayout name="main">
-    <html>
+    <html xmlns:g="http://rabbytes.com/tags/gsp">
         <head>
             <title><g:layoutTitle/></title>
             <g:layoutHead/>
@@ -9,7 +9,7 @@
         <body>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <g:layoutBody/>
+                    <div g:layoutBody>Page content here</div>
                 </div>
                 <g:ifPageProperty name="page.side">
                     <div class="col-sm-4 col-xs-12">

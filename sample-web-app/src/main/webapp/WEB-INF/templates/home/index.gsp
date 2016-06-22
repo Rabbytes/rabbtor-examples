@@ -1,8 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8"  %>
-<html>
+<html xmlns:g="http://rabbytes.com/tags/gsp">
     <head>
         <title>Home</title>
         <meta name="layout" content="main"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     </head>
 
     <body>
@@ -18,7 +19,7 @@
                   target="_blank" role="button">Learn more</a></p>
         </div>
 
-        <g:set var="test" value="${'<strong>Hello</strong>'}" />
+
 
 
         <div>
@@ -31,6 +32,8 @@
                 <a class="btn btn-info" href="${g.mvcUrl(mapping: 'account#register')}">Launch Form</a>
             </p>
         </div>
+
+
     </body>
 </html>
 

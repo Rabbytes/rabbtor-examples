@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<html>
+<html xmlns:g="http://rabbytes.com/tags/gsp">
     <head>
         <title>Register</title>
         <meta name="layout" content="sidebar_right"/>
@@ -18,9 +18,9 @@
             <p>This page renders the form using ${'<' + 'g:render template="/account/register_form"' + '>'}. This way we can use that same template in our ajax call result.</p>
         </div>
 
-        <g:form id="registerForm" action="${g.mvcUrl(mapping: 'account#registerPost')}" ajax="[target:'#registerForm']" modelAttribute="cmd">
+        <form g:form id="registerForm" action="${g.mvcUrl(mapping: 'account#registerPost')}" ajax="[target:'#registerForm']" modelAttribute="cmd">
             <g:render template="/account/register_form"/>
-        </g:form>
+        </form>
 
     </body>
 </html>
