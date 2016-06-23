@@ -2,6 +2,8 @@ package com.rabbtor.example.web.controllers
 
 import com.rabbtor.example.web.models.AddressCommand
 import com.rabbtor.example.web.models.RegisterCommand
+import com.rabbtor.model.ModelMetadataAccessorFactory
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.propertyeditors.StringTrimmerEditor
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

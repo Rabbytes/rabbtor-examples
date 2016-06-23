@@ -20,7 +20,7 @@ repositories {
 }
 
 ext {
-    rabbtorVersion = '1.0.3'
+    rabbtorVersion = '1.0.4'
     groovyVersion = "2.4.6"
     thymeleafVersion = "3.0.0.BETA03"
     tomcatVersion = "8.0.32"
